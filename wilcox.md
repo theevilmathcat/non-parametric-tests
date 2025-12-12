@@ -66,12 +66,13 @@ For a two-tailed test, we take the smaller of the two sums:
 - From the Wilcoxon Signed-Rank critical value table for n = 5, two-tailed, α = 0.05:  
   **Critical value W_cv = 0** (the smallest value that would lead to rejection)
 
-Since W = 3 > 0, we **fail to reject the null hypothesis** at α = 0.05.
+Since W test-statistic = 3 > 0 W critical-value, we **fail to reject the null hypothesis** at α = 0.05.
 
 ### Conclusion
 There is not enough evidence to conclude that there is a significant difference between the before and after measurements (p > 0.05).
 
 
 **Final result**: The change is not statistically significant (W = 3, n = 5, α = 0.05).
+
 
 
