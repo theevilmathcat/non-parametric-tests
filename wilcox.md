@@ -47,7 +47,7 @@ In this example, we have 5 paired observations:
 | 3                          | 3                               |
 | 2                          | 2                               |
 | 6                          | 5                               |
-| 5                          | 5                               |
+| 5                          | 4                               |
 
 ### Step 4: Sum of positive and negative ranks
 
@@ -73,4 +73,5 @@ There is not enough evidence to conclude that there is a significant difference 
 
 
 **Final result**: The change is not statistically significant (W = 3, n = 5, α = 0.05).
+
 
