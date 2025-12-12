@@ -65,7 +65,7 @@ It just has to generally trend in one direction without reversing.
 
 That’s why we got ρ = 0.976 and call it a **very strong positive monotonic relationship**.
 
-### Now since you are likely in college they are gonna ask you to calculate this by hand. The madness, no worries bruh, i got ya'.
+### Now since you are likely in college, they are gonna ask you to calculate this by hand. The madness... no worries bruh, i got ya'.
 
 ## How to Calculate Spearman’s Rank Correlation by Hand (Step-by-Step)
 
@@ -124,3 +124,6 @@ $$
 ### Quick notes
 - The factor of 6 in the formula comes from the mathematical derivation of rank correlation.
 - If there are ties, you must use the full formula involving sums of cubed rank differences, or use statistical software (which is why most people prefer software when ties exist).
+
+### Now go get me some cat food.
+evilmathcat@yandex.com
