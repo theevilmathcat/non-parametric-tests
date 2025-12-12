@@ -58,24 +58,20 @@ Romania ranks: 1 + 5 + 6 + 8 + 10 = **30**
 Check: Total ranks = N(N+1)/2 = 10×11/2 = 55 ✓ (25 + 30 = 55)
 
 #### 2.2 Calculate U for each group
-
 **Formula:**
-$$
-U_1 = n_1n_2 + \frac{n_1(n_1+1)}{2} - R_1
-$$
-$$
-U_2 = n_1n_2 + \frac{n_2(n_2+1)}{2} - R_2
-$$
+
+\( U_1 = n_1 n_2 + \frac{n_1(n_1+1)}{2} - R_1 \)
+
+\( U_2 = n_1 n_2 + \frac{n_2(n_2+1)}{2} - R_2 \)
 
 For Russia (Group 1):
-$$
-U_{\text{Russia}} = (5×5) + \frac{5×6}{2} - 25 = 25 + 15 - 25 = 15
-$$
+
+\( U_\text{Russia} = (5\times5) + \frac{5\times6}{2} - 25 = 25 + 15 - 25 = 15 \)
 
 For Romania (Group 2):
-$$
-U_{\text{Romania}} = (5×5) + \frac{5×6}{2} - 30 = 25 + 15 - 30 = 10
-$$
+
+\( U_\text{Romania} = (5\times5) + \frac{5\times6}{2} - 30 = 25 + 15 - 30 = 10 \)
+
 
 #### 2.3 Test statistic U
 $$
@@ -150,3 +146,4 @@ Critical U = **2**
 
 
 > This example uses hypothetical data for educational purposes only.
+
