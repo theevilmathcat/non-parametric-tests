@@ -92,57 +92,10 @@ U = 25 - 15 = 10
 #### Result
 Our U = **10**  
 Critical U = **2**  
-**10 > 2** → **Fail to reject H₀**
+**2 < 10** → **Fail to reject H₀**
 
 #### Conclusion
 > There is **insufficient evidence** at the 5% significance level to conclude that the distributions of measurements from Russia and Romania are significantly different.
-
----
-
-### Summary of Results
-
-| Component                      | Value |
-|-------------------------------|-------|
-| Russia Rank Sum (R₁)          | 25    |
-| Romania Rank Sum (R₂)         | 30    |
-| U₁ (Russia)                   | 15    |
-| U₂ (Romania)                  | 10    |
-| Test Statistic U              | **10**    |
-| Critical U (α=0.05, two-tailed)| 2     |
-| Decision                      | Fail to reject H₀ |
-
----
-
-### Key Points to Remember
-
-- **Null Hypothesis (H₀):** The two population distributions are equal
-- **Alternative Hypothesis (H₁):** The two population distributions are not equal
-- **Assumptions:**
-  - Two independent samples
-  - Data at least ordinal
-  - Similar shape of distributions (if interpreting median difference)
-- **When to use Mann-Whitney U:**
-  - Data not normally distributed
-  - Small sample sizes
-  - Ordinal data or violation of t-test assumptions
-- **Important Notes:**
-  - The test compares **distributions**, not just means/medians
-  - For n > 20, U approximates a normal distribution (z-test possible)
-  - Always verify assumptions before choosing the test
-
-### Common Critical Values (Two-Tailed, α = 0.05)
-
-| n₁ | n₂ | Critical U |
-|----|----|------------|
-| 5  | 5  | 2          |
-| 5  | 6  | 3          |
-| 5  | 7  | 4          |
-| 6  | 6  | 5          |
-| 7  | 7  | 8          |
-| 8  | 8  | 13         |
-
-
-> This example uses hypothetical data for educational purposes only.
 
 
 
