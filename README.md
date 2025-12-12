@@ -43,3 +43,5 @@ Use these when your data:
 - Has unequal variances between groups
 - Sample size is small
 
+## Contacts for cat food:
+evilmathcat@yandex.com
