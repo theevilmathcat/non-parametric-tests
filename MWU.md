@@ -1,6 +1,6 @@
 # Mann-Whitney U Test: Complete Step-by-Step Guide
 
-The **Mann-Whitney U test** (also known as the Wilcoxon rank-sum test) is a non-parametric statistical test used to compare **two independent groups**. It determines whether there is a statistically significant difference between the distributions of the two groups **without assuming normal distribution**.
+The **Mann-Whitney U test** is a non-parametric statistical test used to compare the difference between **two independent (unpaired) groups**. It determines whether there is a statistically significant difference between the distributions of the two groups **without assuming normal distribution** since parametric assumptions are not satisfied.
 
 ## Our Dataset: Russia vs Romania Measurements
 
@@ -147,5 +147,6 @@ Critical U = **2**
 | 6  | 6  | 5          |
 | 7  | 7  | 8          |
 | 8  | 8  | 13         |
+
 
 > This example uses hypothetical data for educational purposes only.
