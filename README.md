@@ -12,11 +12,14 @@ Ideal for students, researchers, data analysts, and anyone who need a quick but 
 
 ## Contents
 
-| File             | Test                        | Use Case                                 | Parametric Equivalent      |
-|------------------|-----------------------------|-------------------------------------------|----------------------------|
-| [mwu.md](mwu.md)         | Mann-Whitney U              | Two independent samples                   | Independent t-test         |
-| [kw.md](kw.md)           | Kruskal-Wallis H            | Three or more independent samples         | One-way ANOVA              |
-| [wilcox.md](wilcox.md)       | Wilcoxon Signed-Rank        | Two related/paired samples                | Paired t-test              |
+| File                      | Test                   | Use Case                                      | Parametric Equivalent       |
+|---------------------------|------------------------|-----------------------------------------------|-----------------------------|
+| [mwu.md](mwu.md)          | Mann-Whitney U         | Two independent samples                        | Independent t-test          |
+| [kw.md](kw.md)            | Kruskal-Wallis H       | Three or more independent samples              | One-way ANOVA               |
+| [wilcox.md](wilcox.md)    | Wilcoxon Signed-Rank   | Two related/paired samples                     | Paired t-test               |
+| [friedman.md](friedman.md)| Friedman Test          | Three or more related/paired samples           | Repeated-measures ANOVA     |
+| [mcnemar.md](mcnemar.md)  | McNemar Test           | Paired nominal data (2×2 contingency table)   | Cochran’s Q / Marginal test |
+
 
 Each file includes:
 - Explains when to use the test
