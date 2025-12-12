@@ -21,13 +21,13 @@ In this example, we have 5 paired observations:
 
 ### Step 1: Compute the differences (Before − After)
 
-| Subject | Before | After | Difference (d = Before − After) | Sign |
-|---------|--------|-------|----------------------------------|------|
-| 1       | 1      | 2     | -1                               | -    |
-| 2       | 6      | 3     | +3                               | +    |
-| 3       | 8      | 10    | -2                               | -    |
-| 4       | 9      | 3     | +6                               | +    |
-| 5       | 10     | 5     | +5                               | +    |
+| Subject | Before | After | Absolute Difference (d = Before − After) |
+|---------|--------|-------|----------------------------------|
+| 1       | 1      | 2     | 1                               |
+| 2       | 6      | 3     | 3                               |
+| 3       | 8      | 10    | 2                               |
+| 4       | 9      | 3     | 6                               |
+| 5       | 10     | 5     | 5                               |
 
 ### Step 2: Absolute differences and ranking
 
@@ -39,15 +39,15 @@ In this example, we have 5 paired observations:
 | 5                          | 4                               |
 | 6                          | 5                               |
 
-### Step 3: Assign signed ranks
+### Step 3: Assign signed ranks from smallest to largest.
 
-| Subject | d     | \|d\| | Rank | Signed Rank |
-|---------|-------|-------|------|-------------|
-| 1       | -1    | 1     | 1    | -1          |
-| 2       | +3    | 3     | 3    | +3          |
-| 3       | -2    | 2     | 2    | -2          |
-| 4       | +6    | 6     | 5    | +5          |
-| 5       | +5    | 5     | 4    | +4          |
+| Subject | \|d\| | Rank |
+|--------|-------|------|
+| 1        | 1     | 1    |
+| 2       | 3     | 3    |
+| 3       | 2     | 2    |
+| 4        | 6     | 5    |
+| 5        | 5     | 4    |
 
 ### Step 4: Sum of positive and negative ranks
 
@@ -69,5 +69,6 @@ Since W = 3 > 0, we **fail to reject the null hypothesis** at α = 0.05.
 
 ### Conclusion
 There is not enough evidence to conclude that there is a significant difference between the before and after measurements (p > 0.05).
+
 
 **Final result**: The change is not statistically significant (W = 3, n = 5, α = 0.05).
