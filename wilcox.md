@@ -21,38 +21,39 @@ In this example, we have 5 paired observations:
 
 ### Step 1: Compute the differences (Before − After)
 
-| Subject | Before | After | Absolute Difference (d = Before − After) |
-|---------|--------|-------|----------------------------------|
-| 1       | 1      | 2     | 1                               |
-| 2       | 6      | 3     | 3                               |
-| 3       | 8      | 10    | 2                               |
-| 4       | 9      | 3     | 6                               |
-| 5       | 10     | 5     | 5                               |
+| Subject | Before | After |
+|---------|--------|-------|
+| 1       | 1      | 2     |
+| 2       | 6      | 3     |
+| 3       | 8      | 10    |
+| 4       | 9      | 3     |
+| 5       | 10     | 5     |
 
-### Step 2: Absolute differences and ranking
+### Step 2: Absolute differences
+
+| Absolute difference \|d\| |
+|----------------------------|
+| 1                          |
+| 3                          |
+| 2                          |
+| 6                          |
+| 5                          |
+
+### Step 3: Assign signed ranks from smallest to largest.
 
 | Absolute difference \|d\| | Rank (from smallest to largest) |
 |----------------------------|---------------------------------|
 | 1                          | 1                               |
-| 2                          | 2                               |
 | 3                          | 3                               |
-| 5                          | 4                               |
+| 2                          | 2                               |
 | 6                          | 5                               |
-
-### Step 3: Assign signed ranks from smallest to largest.
-
-| Subject | \|d\| | Rank |
-|--------|-------|------|
-| 1        | 1     | 1    |
-| 2       | 3     | 3    |
-| 3       | 2     | 2    |
-| 4        | 6     | 5    |
-| 5        | 5     | 4    |
+| 5                          | 5                               |
 
 ### Step 4: Sum of positive and negative ranks
 
-- Sum of positive ranks (w⁺): 3 + 5 + 4 = **12**  
 - Sum of negative ranks (w⁻): 1 + 2 = **3**
+- Sum of positive ranks (w⁺): 3 + 5 + 4 = **12**  
+
 
 ### Step 5: Test statistic W
 For a two-tailed test, we take the smaller of the two sums:  
@@ -72,3 +73,4 @@ There is not enough evidence to conclude that there is a significant difference 
 
 
 **Final result**: The change is not statistically significant (W = 3, n = 5, α = 0.05).
+
