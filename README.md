@@ -35,10 +35,3 @@ Use these when your data:
 - Has unequal variances between groups
 - Sample size is small
 
-## Quick Start Examples
-
-```python
-# Python - Mann-Whitney U
-from scipy.stats import mannwhitneyu
-stat, p = mannwhitneyu(group1, group2)
-print(f"U = {stat}, p = {p:.4f}")
