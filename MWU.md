@@ -55,8 +55,6 @@ Combined: 45, 39, 60, 52, 43, 48, 62, 37, 56, 50
 Russia ranks: 2 + 3 + 4 + 7 + 9 = **25**  
 Romania ranks: 1 + 5 + 6 + 8 + 10 = **30**
 
-Check: Total ranks = N(N+1)/2 = 10×11/2 = 55 ✓ (25 + 30 = 55)
-
 #### 2.2 Calculate U-Statistic
 
 ```math
@@ -145,6 +143,7 @@ Critical U = **2**
 
 
 > This example uses hypothetical data for educational purposes only.
+
 
 
 
