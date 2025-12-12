@@ -3,7 +3,7 @@
 ## Objective
 Determine if there is a monotonic relationship between **training experience (years)** and **best back squat (kg)** in a group of weightlifters using **Spearman's rank correlation** (non-parametric).
 
-## Data (Weightlifters.xlsx)
+## Data
 | Lifter | Years Training | Back Squat (kg) |
 |--------|----------------|-----------------|
 | A      | 1              | 100             |
@@ -61,5 +61,6 @@ It just has to generally trend in one direction without reversing.
 - No one with 10 years trains less than someone with 2 years  
 → This is a **monotonic increasing** relationship  
 → Perfect for Spearman (we don’t care if the increases are 10 kg or 50 kg each time, only the direction)
+
 
 That’s why we got ρ = 0.976 and call it a **very strong positive monotonic relationship**.
