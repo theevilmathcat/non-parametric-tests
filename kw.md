@@ -82,7 +82,13 @@ From the χ² table (df = 2, α = 0.05):
 
 Since **H = 1.82 < 5.991**, we **fail to reject H₀**.
 
+Note: As alternative, you can also use the Kruskal Wallis TAble where n₁=n₂=n₃ at 5% significance level = 5.801
+**Critical value = 5.881**
+
+Since **H = 1.82 < 5.881**, we **fail to reject H₀**.
+
 ## Conclusion
 At the 5% significance level, there is **no evidence** of a statistically significant difference between the distributions (or medians) of the three countries.
 
 **Kruskal-Wallis test result**: H = 1.82, df = 2, p > 0.05 → **not significant**.
+
